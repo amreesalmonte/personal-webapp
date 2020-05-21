@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Links from "./components/Links"
+import Intro from "./components/Intro";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Links link="https://github.com" title="github" />
+        <Intro />
       </div>
     );
   }

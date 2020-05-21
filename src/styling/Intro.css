@@ -1,0 +1,43 @@
+.introComponent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon {
+    max-width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.introLinks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-size: 10vw;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 100%;
+    color: var(--main-color);
+}
+
+.subtitle {
+    font-size: 5vw;
+    margin: 0px;
+    margin-bottom: 15px;
+    color: var(--sec-color);
+ }
+
+@media screen and (min-width: 600px) {
+    .title {
+      font-size: 60px;
+    }
+    .subtitle {
+        font-size: 30px;
+    }
+  }
