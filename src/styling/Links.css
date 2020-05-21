@@ -1,0 +1,23 @@
+.linkContainer {
+    border: 3px solid var(--accent-color);
+    border-radius: 50px;
+    width: 120px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.linkContainer:hover{
+    background-color: var(--accent-color);
+}
+
+.linkContainer a{
+    text-decoration: none;
+    display:inline-block;
+    width:100%;
+    height:100%;
+    color: var(--accent-color);
+}
+
+.linkContainer a:hover{
+    color: white;
+}
