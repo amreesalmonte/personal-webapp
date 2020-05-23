@@ -34,7 +34,6 @@
     color: var(--main-color);
     font-size: 15px;
     margin-bottom: auto;
-   flex-grow: 3;
 }
 
 .pageLink {

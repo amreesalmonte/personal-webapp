@@ -1,0 +1,22 @@
+.footer {
+    background-color: var(--accent-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    position: absolute
+}
+
+
+.footer p {
+    font-size: 15px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    word-wrap: normal;
+    text-align-last: center;
+}
+
+.footerLinks {
+    padding-top: 15px;
+}

@@ -15,9 +15,9 @@ class Intro extends Component {
                 <p className="title">Hello! I'm Am</p>
                 <p className="subtitle">cs student at university of alberta</p>
                 <div className="introLinks">
-                    <Links link={this.githubLink} title="github" />
-                    <Links link={this.linkedinLink} title="linkedin" />
-                    <Links link={Resume} title="resume" />
+                    <Links link={this.githubLink} title="github" linkClass="regularLink" />
+                    <Links link={this.linkedinLink} title="linkedin" linkClass="regularLink" />
+                    <Links link={Resume} title="resume" linkClass="regularLink" />
                 </div>
             </div>
         );

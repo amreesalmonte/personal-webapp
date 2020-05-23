@@ -1,15 +1,24 @@
 .navBar {
     display: flex; 
-    padding: 30px;
+    margin: 40px;
+    margin-bottom: 60px;
 }
 
 .navBar a{
     text-decoration: none;
     color: var(--main-color);
-    padding-right: 30px;
+    margin-right: 30px;
     font-size: 2.5vh;
 }
 
 .navBar a:hover{
     color: var(--accent-color);
+}
+
+.content {
+    padding-bottom: 180px;
+}
+
+.footer {
+    width: 100%;
 }

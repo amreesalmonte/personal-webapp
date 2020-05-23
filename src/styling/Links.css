@@ -1,9 +1,9 @@
-.linkContainer {
+.regularLink , .invertedLink{
     text-align: center;
     margin: 5px;
 }
 
-.linkContainer a{
+.regularLink a{
     text-decoration: none;
     display: inline-block;
     border: 3px solid var(--accent-color);
@@ -12,8 +12,23 @@
     color: var(--accent-color);
 }
 
-.linkContainer a:hover{
+.regularLink a:hover{
     color: white;
     background-color: var(--accent-color);
 }
+
+.invertedLink a{
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 50px;
+    width: 120px;
+    color: white;
+}
+
+.invertedLink a:hover{
+    color: var(--accent-color);
+    background-color: white;
+}
+
 
