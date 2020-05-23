@@ -13,8 +13,8 @@ class Card extends Component {
                     <p className="description">{description}</p>
                 </div>
                 <div className="pageLink">
-                    <Links link={githubLink} title="code" linkClass="regularLink" />
-                    <Links link={websiteLink} title="website" linkClass="regularLink" />
+                    {githubLink !== null && <Links link={githubLink} title="code" linkClass="regularLink" />}
+                    {websiteLink !== null && <Links link={websiteLink} title="website" linkClass="regularLink" />}
                 </div>
             </div>
         );
