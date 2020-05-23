@@ -1,0 +1,46 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+    background: white;
+    border: 1px solid var(--sec-color);
+    box-sizing: border-box;
+    box-shadow: -10px 10px 10px rgba(163, 144, 228, 0.5);
+    border-radius: 50px;
+}
+
+.cardText {
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.header {
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.subHeader {
+    color: var(--sec-color);
+    margin: 0px;
+    font-size: 15px;
+}
+
+.description {
+    color: var(--main-color);
+    font-size: 15px;
+    margin-bottom: auto;
+   flex-grow: 3;
+}
+
+.pageLink {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    margin-top: auto;
+}
