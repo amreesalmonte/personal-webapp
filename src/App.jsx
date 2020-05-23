@@ -1,12 +1,33 @@
 import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  NavLink
+} from "react-router-dom";
 import Intro from "./components/Intro";
+import Page from "./components/Page";
+import Experience from "./data/Experience";
+import Projects from "./data/Projects";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Intro />
-      </div>
+      <Router>
+        <div>
+          <div className="navBar">
+            <NavLink to="/">home</NavLink>
+            <NavLink to="/experience">experience</NavLink>
+            <NavLink to="/projects">projects</NavLink>
+          </div>
+        </div>
+        <Switch>
+          <Route exact path="/"><Intro /></Route>
+          <Route exact path="/experience"><Page page={Experience} /></Route>
+          <Route exact path="/projects"><Page page={Projects} /></Route>
+        </Switch>
+      </Router >
     );
   }
 }

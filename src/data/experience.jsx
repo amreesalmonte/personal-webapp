@@ -1,4 +1,4 @@
-const experiencesData = [
+const Experience = [
     {
         header: "Teaching Assistant",
         subHeader: "University of Alberta (Jan 2020 - April 2020)",
@@ -15,4 +15,4 @@ const experiencesData = [
     }
 ]
 
-export default experiencesData;
+export default Experience;

@@ -1,4 +1,4 @@
-const projectsData = [
+const Projects = [
     {
         header: "Name My Dog",
         subHeader: "HTML, CSS, JavaScript",
@@ -22,4 +22,4 @@ const projectsData = [
     }
 ]
 
-export default projectsData;
+export default Projects;

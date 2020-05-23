@@ -1,0 +1,15 @@
+.navBar {
+    display: flex; 
+    padding: 30px;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: var(--main-color);
+    padding-right: 30px;
+    font-size: 2.5vh;
+}
+
+.navBar a:hover{
+    color: var(--accent-color);
+}
