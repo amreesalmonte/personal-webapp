@@ -8,7 +8,7 @@
     background: white;
     border: 1px solid var(--sec-color);
     box-sizing: border-box;
-    box-shadow: -10px 10px 10px rgba(163, 144, 228, 0.5);
+    box-shadow: -10px 10px var(--sec-color);
     border-radius: 50px;
 }
 
