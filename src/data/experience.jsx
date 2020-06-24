@@ -7,6 +7,13 @@ const Experience = [
         websiteLink: null
     },
     {
+        header: "VP Academic",
+        subHeader: "Ada's Team (May 2020 - Present)",
+        description: "Collaborated in a team to volunteer and host events throughout the school year to foster a sense of community and tasked to interview tutors throughout the school year to ensure that students will have a positive learning experience",
+        githubLink: null,
+        websiteLink: null
+    },
+    {
         header: "Volunteer Tutor",
         subHeader: "Ada's Team (Sep 2019 - Present)",
         description: "Tutored over 50 students in a variety of computing science topics such as Python, SQL queries, and Object Oriented Programming and lead discussions with a group of students to solve assignments and labs through whiteboard examples",
