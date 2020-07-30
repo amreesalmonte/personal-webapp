@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Links from "./Links";
 import "../styling/Intro.css";
 import Resume from "../data/Resume.pdf"
+import ContactForm from "./ContactForm";
 
 class Intro extends Component {
 
@@ -18,6 +19,9 @@ class Intro extends Component {
                     <Links link={this.githubLink} title="github" linkClass="regularLink" />
                     <Links link={this.linkedinLink} title="linkedin" linkClass="regularLink" />
                     <Links link={Resume} title="resume" linkClass="regularLink" />
+                </div>
+                <div>
+                    <ContactForm />
                 </div>
             </div>
         );
